@@ -2,6 +2,8 @@
 
 this python lib can wrap several files into one single file and vice versa.
 
+__NOTE__: the format of files is not standard.
+
 ## TODO
 
 - make better functions.
