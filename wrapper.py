@@ -5,10 +5,10 @@ def wrap(filenames, outputFilename=''):
         wraps some files into one big file or data section.
 
         use like this:
-        + unwrap ( [a list of files names] )  --> outputs wrapped data
+        + wrap ( [a list of files names] )  --> outputs wrapped data
         
         or
-        + unwrap ( [a list of files names], outputFilename='output file name' ) --> writes output into the file. no function output
+        + wrap ( [a list of files names], outputFilename='output file name' ) --> writes output into the file. no function output
     """
     n = len(filenames)
     sizes = []
@@ -111,4 +111,3 @@ def __unwrap_data__(inputdata, outDir):
         f = open(outDir + names[i], 'wb')
         f.write(datas[i])
         f.close()
-
