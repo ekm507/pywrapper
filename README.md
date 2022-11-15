@@ -10,6 +10,15 @@ __NOTE__: the format of files is not standard.
 
 output file has some header lines seperated by `'\n'` characters.
 
+first line is number of original files stored in it. which is a string of decimal number encoded in `ascii` coding. let's say the number is `n`.
+
+the next `2*n` lines of the file are as follows:
+
+```
+{filename}\n
+{filesize(in bytes)}\n
+```
+
 ## TODO
 
 - make better functions.
