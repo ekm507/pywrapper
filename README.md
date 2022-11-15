@@ -19,6 +19,8 @@ the next `2*n` lines of the file are as follows:
 {filesize(in bytes)}\n
 ```
 
+then data of the files are concatenated after that.
+
 ## TODO
 
 - make better functions.
