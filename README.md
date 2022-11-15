@@ -4,6 +4,10 @@ this python lib can wrap several files into one single file and vice versa.
 
 __NOTE__: the format of files is not standard.
 
+## format specification
+
+`wrap` function gets some filenames and outputs a single file or a chunk of binary data.
+
 ## TODO
 
 - make better functions.
